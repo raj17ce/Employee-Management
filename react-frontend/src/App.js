@@ -1,8 +1,12 @@
-import './App.css';
+import AddEmployee from './components/AddEmployee.js';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (
-    <div>Hello</div>
+    <div>
+      <Navbar />
+      <AddEmployee />
+    </div>
   );
 }
 
